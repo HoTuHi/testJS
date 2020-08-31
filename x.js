@@ -1,4 +1,4 @@
-var theurl ="http://numbersapi.com/";
+var theurl ="https://numbersapi.com/";
 function getRes(){ 
     var usertext = '';
     usertext = $("#userText").val();
