@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  display:inline-block;
+  clear: both;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 2px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 800;
+}
+
+.him{
+  padding: 10px 10px 5px 10px;
+  max-width: 250px;
+  background: #eee;
+  float: left;
+}
+
+.me{
+  padding: 5px 10px 5px 10px;
+  max-width: 250px;
+  float: right;
+  background: #0084ff;
+  color: #fff;
+}
+
+.him + .me{
+  border-bottom-right-radius: 1px;
+}
+
+.me + .me{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+  border-bottom-right-radius: 30px;
+}
+.card{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px !important;
+}
+.card-body{
+    height: 450px;
+}
+.msg-body{
+    overflow-y: auto;
+}
